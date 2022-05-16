@@ -1,6 +1,6 @@
 name: Publish library to PyPI and TestPyPI
 
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
   build-n-publish:
